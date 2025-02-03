@@ -10,6 +10,7 @@
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
+    
     body, section, .attribution{
       background-color: black;
       text-align: center;
@@ -18,13 +19,16 @@
       justify-content: center;
       align-items: center;
     }
+    
     h2, section a:hover{ color: lime; }
+    
     section{
       background-color: #181818;
       justify-content: space-evenly;
       width: 80%;
       padding: 5%;
       border-radius: 5mm;
+      
      a{
       background-color: #333333;
       text-decoration: none;
@@ -32,20 +36,31 @@
       padding: 2%;
       border-radius: 1mm;
       }
+      
      a:hover{
       background-color: green;
       transition: 1s;
       }
     }
+    
       img{
         width: 15%;
         border-radius: 1cm;
       }
+    
       h2{ opacity: 0.8; }
+    
       p{ opacity: 0.6; }
+    
       section, section a, p{ margin: 1%; }
+    
       section, section a, .attribution{ color: #ffffff; }
-      .attribution a{ color: hsl(228, 45%, 44%); }
+
+    .attribution{
+      position: absolute;
+      bottom: 1%;
+      a{ color: hsl(228, 45%, 44%); }
+    }
     @media screen and (min-width: 800px) { img{ border-radius: 3cm; } }
     @media screen and (min-width: 1000px) { 
       section{
